@@ -1,0 +1,25 @@
+.yg-trip-history-container .yg-history-box .yg-history-item {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #cecece;
+  border-radius: 12px;
+  position: relative;
+  font-size: 14px; }
+  .yg-trip-history-container .yg-history-box .yg-history-item .yg-history-item-status {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10; }
+    .yg-trip-history-container .yg-history-box .yg-history-item .yg-history-item-status .yg-history-item-status-label {
+      max-width: 120px;
+      padding-top: 3px; }
+
+@media (max-width: 575.98px) {
+  .yg-trip-history-container .yg-history-box .yg-history-item .yg-history-item-status {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin-bottom: 15px; }
+    .yg-trip-history-container .yg-history-box .yg-history-item .yg-history-item-status .yg-history-item-status-label {
+      max-width: 100%;
+      padding-top: 0px; } }

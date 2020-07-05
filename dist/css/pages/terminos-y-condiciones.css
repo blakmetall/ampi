@@ -1,0 +1,42 @@
+.yg-terminos-container {
+  padding-top: 300px; }
+  .yg-terminos-container .yg-main-title {
+    color: #4B2DD0;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center; }
+  .yg-terminos-container .yg-secondary-title {
+    color: #ED3580;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: center; }
+  .yg-terminos-container .yg-home-features img {
+    height: 90px;
+    width: auto;
+    margin: 0 auto 20px auto; }
+  .yg-terminos-container .yg-home-features h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 28px; }
+  .yg-terminos-container .yg-home-features p {
+    margin-bottom: 0; }
+  .yg-terminos-container .yg-home-vehicles img {
+    height: 80px;
+    width: auto;
+    margin: 0 auto 20px auto; }
+  .yg-terminos-container .yg-home-vehicles h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 28px; }
+  .yg-terminos-container .yg-home-vehicles p {
+    margin-bottom: 0;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.3em;
+    color: #277cea; }
+    .yg-terminos-container .yg-home-vehicles p span {
+      width: 100%;
+      display: block;
+      margin-bottom: 7px; }

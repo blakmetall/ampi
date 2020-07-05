@@ -1,0 +1,51 @@
+.datepicker {
+    table {
+        font-family: "Poppins", sans-serif;
+        font-size: 11px;
+
+        border-collapse: separate;
+        border-spacing: 10px;
+
+        tr {
+            th {
+
+                &.prev,
+                &.next,
+                &.datepicker-switch {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                }
+            }
+
+            td {
+                &.day {
+                    border-radius: 50%;
+                }
+
+                &.today,
+                &.today:link,
+                &.today:visited,
+                &.today:active,
+                &.today:focus,
+                &.today:hover {
+                    background-color: rgba(75, 45, 208, .4) !important;
+                    border-radius: 50%;
+                    color: #333;
+                }
+
+                &.active,
+                &.active:active,
+                &.active:hover,
+                &.active.highlighted:active,
+                &.active.highlighted:hover,
+                &.active:active,
+                &.active:active:hover {
+                    background-color: rgba(75, 45, 208, .9) !important;
+                    border-radius: 50%;
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}

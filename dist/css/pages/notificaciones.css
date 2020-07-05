@@ -1,0 +1,29 @@
+.yg-notifications-container .yg-notification-item {
+  border-bottom: 1px solid #cecece; }
+  .yg-notifications-container .yg-notification-item h3 {
+    font-size: 16px;
+    line-height: 1.4em; }
+  .yg-notifications-container .yg-notification-item .yg-notification-content {
+    padding-left: 36px; }
+    .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-date-info {
+      padding-left: 50px;
+      padding-right: 0;
+      position: relative; }
+      .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-date-info h4 {
+        font-size: 14px; }
+      .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-date-info .yg-notification-date-icon {
+        width: 33px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0; }
+    .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-category {
+      font-size: 18px; }
+  .yg-notifications-container .yg-notification-item:last-child {
+    margin-bottom: 50px !important; }
+
+@media (max-width: 767.98px) {
+  .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-date-info {
+    font-size: 13px; }
+    .yg-notifications-container .yg-notification-item .yg-notification-content .yg-notification-date-info h4 {
+      font-size: 13px; } }

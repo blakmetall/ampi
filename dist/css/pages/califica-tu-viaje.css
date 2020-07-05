@@ -1,0 +1,49 @@
+.yg-rate-your-trip-container textarea {
+  font-size: 14px; }
+
+.yg-rate-your-trip-container .yg-rate-trip-dates {
+  padding-left: 36px; }
+  .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-date-info {
+    padding-left: 50px;
+    padding-right: 0;
+    position: relative; }
+    .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-date-info h4 {
+      font-size: 14px; }
+    .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-date-info .yg-rate-trip-date-icon {
+      width: 33px;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-category {
+    font-size: 18px; }
+
+.yg-rate-your-trip-container .yg-profile-img {
+  width: 100%;
+  max-width: 140px;
+  margin-left: 31px; }
+
+.yg-rate-your-trip-container .yg-rate-trip-input-group {
+  margin-bottom: 30px; }
+  .yg-rate-your-trip-container .yg-rate-trip-input-group h3 {
+    font-size: 18px; }
+  .yg-rate-your-trip-container .yg-rate-trip-input-group .yg-rate-trip-stars .yg-rate-icon-star {
+    background-image: url("../img/icon-star-outline.png");
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+    margin-right: 10px; }
+    .yg-rate-your-trip-container .yg-rate-trip-input-group .yg-rate-trip-stars .yg-rate-icon-star:hover {
+      cursor: pointer; }
+    .yg-rate-your-trip-container .yg-rate-trip-input-group .yg-rate-trip-stars .yg-rate-icon-star.filled {
+      background-image: url("../img/icon-star-filled.png"); }
+
+@media (max-width: 767.98px) {
+  .yg-rate-your-trip-container h2 {
+    font-size: 18px; }
+  .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-date-info {
+    font-size: 13px; }
+    .yg-rate-your-trip-container .yg-rate-trip-dates .yg-rate-trip-date-info h4 {
+      font-size: 13px; }
+  .yg-rate-your-trip-container .yg-profile-img {
+    max-width: 80px; } }

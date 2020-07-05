@@ -1,0 +1,112 @@
+@import "../functions.scss";
+@import "../variables.scss";
+@import "../mixins";
+
+.yg-home-container {
+    padding-top: 30px;
+    max-width: 1300px;
+
+    .yg-main-title {
+        color: #4B2DD0;
+        font-size: 55px;
+        font-weight: bold;
+        line-height: 1.2em;
+        text-align: center;
+    }
+
+    .yg-secondary-title {
+        color: #ED3580;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 1.3em;
+        text-align: center;
+    }
+
+    .yg-home-features {
+        img {
+            height: 90px;
+            width: auto;
+            margin: 0 auto 20px auto;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 28px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .yg-home-vehicles {
+        img {
+            height: 80px;
+            width: auto;
+            margin: 0 auto 20px auto;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 28px;
+        }
+
+        p {
+            margin-bottom: 0;
+            font-size: 12px;
+            text-align: left;
+            line-height: 1.3em;
+            color: #606060;
+
+            span {
+                width: 100%;
+                display: block;
+                margin-bottom: 7px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {}
+
+@include media-breakpoint-down(md) {
+    .yg-home-container {
+        .yg-secondary-title {
+            font-size: 28px;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .yg-home-container {
+        .yg-main-title {
+            font-size: 35px;
+        }
+
+        .yg-secondary-title {
+            font-size: 20px;
+        }
+
+        .yg-home-features {
+            >div {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .yg-home-container {
+        .yg-main-title {
+            font-size: 30px;
+        }
+
+        .yg-home-vehicles {
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

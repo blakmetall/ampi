@@ -1,0 +1,10 @@
+.yg-trip-confirm-container {
+  padding-top: 60px; }
+  .yg-trip-confirm-container p {
+    font-size: 16px; }
+
+.yg-accept-trip-box {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 10; }

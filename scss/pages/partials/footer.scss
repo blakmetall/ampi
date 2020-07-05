@@ -1,0 +1,49 @@
+    .yg-footer {
+        padding-bottom: 2rem !important;
+        padding-top: 2rem !important;
+        width: 100%;
+        color: #fff;
+
+        .yg-footer-title {
+            position: relative;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .yg-footer-links a {
+            color: #fff;
+            display: block;
+            text-decoration: none;
+        }
+
+        .yg-footer-input {
+            border-radius: 10px;
+        }
+
+        .yg-footer-hr {
+            border-top: 1px solid #fff;
+        }
+
+        .yg-footer-bottom {
+            width: 100%;
+            color: #fff;
+        }
+
+        .yg-link-footer-bottom {
+            display: block;
+            font-size: 13px;
+            color: #fff;
+
+            &:hover,
+            a:hover,
+            a {
+                color: #fff;
+                text-decoration: none;
+
+                &.underline {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }

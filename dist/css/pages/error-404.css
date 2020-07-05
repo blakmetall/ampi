@@ -1,0 +1,13 @@
+.yg-error404-container {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .yg-error404-container img {
+    max-width: 300px; }
+  .yg-error404-container h1,
+  .yg-error404-container h2 {
+    font-size: 16px;
+    color: #606060; }
+  .yg-error404-container h2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #606060; }
