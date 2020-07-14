@@ -1,17 +1,19 @@
 {
-  "name": "yogo-templates",
-  "version": "1.0.0",
-  "description": "Responsive yogo templates",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "Team Random",
-  "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.14.1"
-  }
+    "name": "ampi-templates",
+    "version": "1.0.0",
+    "description": "ampi html templates",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
+        "deploy": "gh-pages -d dist",
+        "serve": "serve dist --listen 3000"
+    },
+    "author": "Team Random",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.5.0",
+        "gh-pages": "^1.2.0",
+        "node-sass": "^4.14.1",
+        "serve": "^11.3.2"
+    }
 }
