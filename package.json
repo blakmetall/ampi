@@ -10,7 +10,8 @@
   "author": "Team Random",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.14.1"
   }
 }
