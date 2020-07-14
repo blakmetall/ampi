@@ -3,12 +3,12 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
+@import "./fonts.scss";
+
 body {
-    color: $primary;
+    font-family: 'Helvetica Neue';
 }
 
 @include media-breakpoint-up(sm) {
-    body {
-        color: green;
-    }
+    body {}
 }
