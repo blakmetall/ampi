@@ -2,13 +2,151 @@
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
-
 @import "./fonts.scss";
 
 body {
     font-family: 'Helvetica Neue';
+    font-size: 14px;
+}
+
+.app-font-11 {
+    font-size: 11px;
+}
+
+.app-font-12 {
+    font-size: 12px;
+}
+
+.app-font-13 {
+    font-size: 13px;
+}
+
+.app-font-14 {
+    font-size: 14px;
+}
+
+.app-font-15 {
+    font-size: 15px;
+}
+
+.app-font-18 {
+    font-size: 18px;
+}
+
+.app-font-21 {
+    font-size: 21px;
+}
+
+.app-font-24 {
+    font-size: 24px;
+}
+
+.app-font-27 {
+    font-size: 27px;
+}
+
+.app-font-30 {
+    font-size: 30px;
+}
+
+.app-font-33 {
+    font-size: 33px;
+}
+
+.app-font-36 {
+    font-size: 36px;
+}
+
+.text-gray-100 {
+    color: $gray-100 !important;
+}
+
+.text-gray-200 {
+    color: $gray-200 !important;
+}
+
+.text-gray-300 {
+    color: $gray-300 !important;
+}
+
+.text-gray-400 {
+    color: $gray-400 !important;
+}
+
+.text-gray-500 {
+    color: $gray-500 !important;
+}
+
+.text-gray-600 {
+    color: $gray-600 !important;
+}
+
+.text-gray-700 {
+    color: $gray-700 !important;
+}
+
+.text-gray-800 {
+    color: $gray-800 !important;
+}
+
+.text-gray-900 {
+    color: $gray-900 !important;
+}
+
+.app-navbar-brand {
+    position: absolute;
+    top: -35px;
+    left: 0;
+
+    img {
+        width: 160px;
+    }
 }
 
 @include media-breakpoint-up(sm) {
-    body {}
+    .app-font-24 {
+        font-size: 20px;
+    }
+
+    .app-font-27 {
+        font-size: 22px;
+    }
+
+    .app-font-30 {
+        font-size: 24px;
+    }
+
+    .app-font-33 {
+        font-size: 26px;
+    }
+
+    .app-font-36 {
+        font-size: 28px;
+    }
 }
+
+@include media-breakpoint-up(md) {
+    .app-font-24 {
+        font-size: 21px;
+    }
+
+    .app-font-27 {
+        font-size: 22px;
+    }
+
+    .app-font-30 {
+        font-size: 24px;
+    }
+
+    .app-font-33 {
+        font-size: 27px;
+    }
+
+    .app-font-36 {
+        font-size: 30px;
+    }
+}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
