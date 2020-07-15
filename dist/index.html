@@ -24,7 +24,7 @@
 <body>
 
     <!-- top menu -->
-    <nav class="navbar navbar-expand navbar-light bg-white pt-lg-4">
+    <nav class="navbar navbar-expand navbar-light bg-white pt-lg-4 pb-1">
         <div class="container">
             <div class="collapse navbar-collapse text-uppercase font-weight-light app-font-12">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -34,7 +34,7 @@
                     <li class="nav-item pl-1 pl-md-3">
                         <a class="nav-link text-primary" href="#">Members login</a>
                     </li>
-                    <li class="nav-item pt-1 pl-2 pl-md-5">
+                    <li class="nav-item pt-1 pl-2 pl-md-5 pr-2">
                         <div class="align-items-center app-font-14">
                             <a href="https://facebook.com" target="_blank" class="text-primary">
                                 <i class="fab fa-facebook-f"></i>
@@ -52,41 +52,67 @@
         </div>
     </nav>
 
-    <!-- <nav class="navbar navbar-expand navbar-light border-bottom">
-        <div class="container position-relative">
-            <div class="collapse navbar-collapse text-uppercase font-weight-light app-font-12">
-                <a class="navbar-brand app-navbar-brand" href="#">
-                    <img src="img/logo-ampi-puerto-vallarta.jpg" alt="" loading="lazy">
-                </a>
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+    <nav class="navbar navbar-expand-xl navbar-light border-bottom app-navbar">
+        <div class="container position-relative pb-2 pb-xl-0">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#appMainNavbar"
+                aria-controls="appMainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-ampi-puerto-vallarta.jpg" alt="" loading="lazy">
+            </a>
+            <div class="collapse navbar-collapse text-uppercase font-weight-light app-font-12" id="appMainNavbar">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pb-2 font-weight-normal">
                     <li class="nav-item active">
-                        <a class="nav-link text-gray-700" href="#">Home</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Home</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">About AMPI</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>About AMPI</span>
+                        </a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu3"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Living in the Bay</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">Living in the Bay</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Real Estate in the Bay</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">Real Estate in the Bay</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>AMPI Agencies</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">AMPI Agencies</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Search For Properties</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">Search For Properties</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Blog</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-gray-700" href="#">Contact</a>
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Contact</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
 
 

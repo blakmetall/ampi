@@ -93,13 +93,39 @@ body {
     color: $gray-900 !important;
 }
 
-.app-navbar-brand {
-    position: absolute;
-    top: -35px;
-    left: 0;
+.app-navbar {
+    .navbar-toggler {
+        outline-color: $warning;
+        border-radius: 2px;
+    }
 
-    img {
-        width: 160px;
+    .navbar-brand {
+        position: absolute;
+        top: -35px;
+        left: 0;
+
+        img {
+            width: 160px;
+        }
+    }
+
+    .dropdown-menu {
+        position: relative;
+        top: 48px;
+        border-top: 3px solid $primary;
+
+        .dropdown-item {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-size: 13px;
+            border-bottom: 1px solid lighten($secondary, 45%);
+            text-transform: none;
+            color: $appGreenDark2;
+
+            &:last-child {
+                border-color: transparent;
+            }
+        }
     }
 }
 
@@ -150,3 +176,64 @@ body {
 @include media-breakpoint-up(lg) {}
 
 @include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-down(xl) {}
+
+@include media-breakpoint-down(lg) {
+    .app-navbar {
+        .navbar-collapse {
+            background: lighten($secondary, 48%);
+            padding: 20px 20px;
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 100%;
+
+            .nav-item {
+                .nav-link {
+                    text-align: right;
+
+                    span {
+                        font-weight: 500;
+                        margin-top: 2px;
+                    }
+                }
+
+                .dropdown-menu {
+                    width: auto;
+                    margin-left: auto;
+                    top: 0px;
+                    margin-bottom: 6px;
+
+                    .dropdown-item {
+                        text-align: right;
+                    }
+                }
+
+                &.active {
+                    .nav-link {
+                        span {
+                            border-bottom: 2px solid $warning;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@include media-breakpoint-down(md) {}
+
+@include media-breakpoint-down(sm) {
+    .app-navbar {
+        .navbar-brand {
+            top: -15px;
+
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
