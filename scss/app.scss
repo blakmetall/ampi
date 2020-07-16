@@ -173,13 +173,52 @@ body {
     }
 }
 
+.app-card-2 {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .app-home-form {
     background: $appMidBrown;
 }
 
+.app-home-counter {
+    position: relative;
+    background-image: url('../img/demo-slide-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    h2 span {
+        color: #39f09a;
+    }
+
+    .app-home-counter-value {
+        font-weight: bolder;
+        font-size: 60px;
+        margin-bottom: 0;
+        line-height: 1.3em;
+    }
+}
+
+.app-agencies {
+    img {
+        width: 100px;
+        height: auto;
+    }
+}
+
 @include media-breakpoint-up(sm) {}
 
-@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(md) {
+    .app-home-counter {
+        h2 {
+            max-width: 400px;
+        }
+    }
+}
 
 @include media-breakpoint-up(lg) {}
 
@@ -252,6 +291,12 @@ body {
 
         .carousel-caption {
             padding-bottom: 10px;
+        }
+    }
+
+    .app-home-counter {
+        .app-home-counter-value {
+            font-size: 40px;
         }
     }
 }

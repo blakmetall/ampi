@@ -7,6 +7,46 @@
     width: auto;
 }
 
+.text-black {
+    color: #000;
+}
+
+.app-top-1 {
+    top: 0.25rem;
+}
+
+.app-top-2 {
+    top: 0.5rem;
+}
+
+.app-top-3 {
+    top: 0.75rem;
+}
+
+.app-top-4 {
+    top: 1rem;
+}
+
+.app-top-5 {
+    top: 1.25rem;
+}
+
+.app-top-6 {
+    top: 1.5rem;
+}
+
+.app-top-7 {
+    top: 1.75rem;
+}
+
+.app-top-8 {
+    top: 2rem;
+}
+
+.app-top-9 {
+    top: 2.25rem;
+}
+
 .letter-spacing-1 {
     letter-spacing: 0.075rem;
 }
@@ -195,6 +235,11 @@
         height: 2px;
     }
 
+
+    &.sm {
+        height: 4px;
+    }
+
     &.md {
         height: 8px;
     }
@@ -251,6 +296,14 @@
 
 .app-container-xs {
     max-width: map-get($container-max-widths, 'xs');
+}
+
+.app-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000, 0.45);
+    z-index: 0;
 }
 
 @include media-breakpoint-up(sm) {}
