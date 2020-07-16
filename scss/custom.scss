@@ -3,6 +3,10 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
+.width-auto {
+    width: auto;
+}
+
 .letter-spacing-1 {
     letter-spacing: 0.075rem;
 }
@@ -183,6 +187,10 @@
         width: 80%;
     }
 
+    &.xxs {
+        height: 1px;
+    }
+
     &.xs {
         height: 2px;
     }
@@ -218,6 +226,31 @@
     &.info {
         background: $info;
     }
+
+    &.brown {
+        background: darken($appMidBrown, 20%);
+    }
+}
+
+.app-container,
+.app-container-xl {
+    max-width: map-get($container-max-widths, 'xl');
+}
+
+.app-container-lg {
+    max-width: map-get($container-max-widths, 'lg');
+}
+
+.app-container-md {
+    max-width: map-get($container-max-widths, 'md');
+}
+
+.app-container-sm {
+    max-width: map-get($container-max-widths, 'sm');
+}
+
+.app-container-xs {
+    max-width: map-get($container-max-widths, 'xs');
 }
 
 @include media-breakpoint-up(sm) {}
