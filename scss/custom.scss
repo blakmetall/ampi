@@ -218,32 +218,21 @@
     &.info {
         background: $info;
     }
-
 }
 
-@include media-breakpoint-up(sm) {
-    .app-font-24 {
-        font-size: 20px;
-    }
+@include media-breakpoint-up(sm) {}
 
-    .app-font-27 {
-        font-size: 22px;
-    }
+@include media-breakpoint-up(md) {}
 
-    .app-font-30 {
-        font-size: 24px;
-    }
+@include media-breakpoint-up(lg) {}
 
-    .app-font-33 {
-        font-size: 26px;
-    }
+@include media-breakpoint-up(xl) {}
 
-    .app-font-36 {
-        font-size: 28px;
-    }
-}
+@include media-breakpoint-down(xl) {}
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-down(lg) {}
+
+@include media-breakpoint-down(md) {
     .app-font-24 {
         font-size: 21px;
     }
@@ -265,14 +254,24 @@
     }
 }
 
-@include media-breakpoint-up(lg) {}
+@include media-breakpoint-down(sm) {
+    .app-font-24 {
+        font-size: 20px;
+    }
 
-@include media-breakpoint-up(xl) {}
+    .app-font-27 {
+        font-size: 22px;
+    }
 
-@include media-breakpoint-down(xl) {}
+    .app-font-30 {
+        font-size: 24px;
+    }
 
-@include media-breakpoint-down(lg) {}
+    .app-font-33 {
+        font-size: 26px;
+    }
 
-@include media-breakpoint-down(md) {}
-
-@include media-breakpoint-down(sm) {}
+    .app-font-36 {
+        font-size: 28px;
+    }
+}
