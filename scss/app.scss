@@ -109,6 +109,10 @@ body {
         }
     }
 
+    .navbar-collapse {
+        z-index: 99;
+    }
+
     .dropdown-menu {
         position: relative;
         top: 48px;
@@ -126,6 +130,57 @@ body {
                 border-color: transparent;
             }
         }
+    }
+}
+
+.app-footer {
+    background: $appGreenDark;
+    color: color-yiq($appGreenDark);
+
+    .app-footer-social {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        margin-right: 1.25rem;
+        background: white;
+        padding-top: 3px;
+        text-align: center;
+
+        &.facebook {
+            background: #3350ae;
+        }
+
+        &.twitter {
+            background: #00c4fc;
+        }
+
+        &.linkedin {
+            background: #0084d7;
+        }
+    }
+
+    .app-footer-form {
+        border: 1px solid #000000;
+
+        .form-group {
+            margin-bottom: 0;
+
+            input {
+                width: 100%;
+                border: none;
+                border-radius: 0;
+            }
+        }
+
+        button {
+            padding-top: 7.5px;
+            padding-bottom: 7px;
+            border-radius: 0;
+        }
+    }
+
+    .app-footer-line {
+        border-bottom: 2px solid #0b4f31;
     }
 }
 
