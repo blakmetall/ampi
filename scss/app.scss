@@ -7,17 +7,25 @@
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 1.5em;
 }
 
 .form-control {
     border-radius: 0;
     border: 1px solid lighten(#000, 25%);
-    font-size: 14px;
+    font-size: 15px;
 
     &:focus {
         box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .175) !important;
         border-color: #000;
+    }
+}
+
+.app-navbar-top,
+.app-navbar {
+    >.container-fluid {
+        max-width: 1200px;
     }
 }
 
@@ -29,11 +37,11 @@ body {
 
     .navbar-brand {
         position: absolute;
-        top: -35px;
+        top: -45px;
         left: 0;
 
         img {
-            width: 160px;
+            width: 180px;
         }
     }
 
@@ -43,13 +51,13 @@ body {
 
     .dropdown-menu {
         position: relative;
-        top: 48px;
+        top: 53px;
         border-top: 3px solid $primary;
 
         .dropdown-item {
             padding-top: 7px;
             padding-bottom: 7px;
-            font-size: 13px;
+            font-size: 14px;
             border-bottom: 1px solid lighten($secondary, 45%);
             text-transform: none;
             color: $appGreenDark2;
@@ -210,6 +218,14 @@ body {
     }
 }
 
+.app-top-socials a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
@@ -276,10 +292,10 @@ body {
 @include media-breakpoint-down(sm) {
     .app-navbar {
         .navbar-brand {
-            top: -15px;
+            top: -40px;
 
             img {
-                width: 120px;
+                width: 160px;
             }
         }
     }
@@ -297,6 +313,18 @@ body {
     .app-home-counter {
         .app-home-counter-value {
             font-size: 40px;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .app-navbar {
+        .navbar-brand {
+            top: -12px;
+
+            img {
+                width: 120px;
+            }
         }
     }
 }
