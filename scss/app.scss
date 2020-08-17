@@ -326,6 +326,16 @@ body {
     }
 }
 
+.app-sidebar-newsletter-box {
+    .title {
+        line-height: 1.1em;
+        margin-bottom: 1rem;
+    }
+
+    background: #fde428;
+    padding: 30px;
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
