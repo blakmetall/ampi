@@ -47,6 +47,15 @@ body {
 
     .navbar-collapse {
         z-index: 99;
+
+        .nav-link {
+            padding-left: 7px;
+            padding-right: 7px;
+
+            &.dropdown-toggle::after {
+                margin-left: 1px;
+            }
+        }
     }
 
     .dropdown-menu {
