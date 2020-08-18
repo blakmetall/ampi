@@ -7,6 +7,7 @@ $warning: #fde428;
 $info2: #77ffed;
 $info3: #69e999; // sidebar
 
+$appBlack: #212529;
 $appGreenDark: #0b683f;
 $appGreenDark2: #395748;
 $appMidBrown: #e1e0e0;
@@ -16,4 +17,4 @@ $appTextContent: #1c1c1c;
 $grid-gutter-width: 40px !default;
 
 // bootstrap theming: new color scheme
-$theme-colors: ("app-gray-1": #949494, "app-text-content": $appTextContent);
+$theme-colors: ("app-gray-1": #949494, "app-black": $appBlack, "app-text-content": $appTextContent);

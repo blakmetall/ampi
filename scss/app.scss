@@ -380,6 +380,20 @@ body {
     padding: 30px;
 }
 
+.app-training-list-group {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    .app-training-list-item {
+        a {
+            color: $appBlack;
+        }
+    }
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
