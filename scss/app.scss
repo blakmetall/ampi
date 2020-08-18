@@ -136,6 +136,50 @@ body {
     }
 }
 
+.app-newsletter-sidebar-form {
+    border: 1px solid #000000;
+
+    .form-group {
+        margin-bottom: 0;
+
+        input {
+            width: 100%;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 1rem;
+        }
+    }
+
+    button {
+        padding-top: 7.5px;
+        padding-bottom: 7px;
+        border-radius: 0;
+    }
+}
+
+.app-sidebar-search {
+    border: 1px solid #000000;
+
+    .form-group {
+        margin-bottom: 0;
+
+        input {
+            width: 100%;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 1rem;
+        }
+    }
+
+    button {
+        padding-top: 7.5px;
+        padding-bottom: 7px;
+        border-radius: 0;
+    }
+}
+
 .app-carousel {
     position: relative;
 
@@ -406,6 +450,14 @@ body {
 
             .app-page-sidebar-container {
                 margin-top: 40px;
+            }
+        }
+    }
+
+    .app-page-container {
+        .app-page-container-inner {
+            .app-page-sidebar-container {
+                max-width: 100%;
             }
         }
     }

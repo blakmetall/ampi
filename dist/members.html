@@ -179,7 +179,7 @@
 
                 <div class="row no-gutters">
                     <!-- sidebar menu -->
-                    <div class="col-12 col-sm-6 col-md-12">
+                    <div class="col-12 col-sm-6 col-lg-12 order-1 order-sm-2 order-lg-1">
                         <div class="app-sidebar-menu">
                             <div class="app-sidebar-menu-title">
                                 <span>Menu</span>
@@ -277,14 +277,41 @@
                         </div>
                     </div>
 
-
-                    <!-- newsletter -->
-                    <div class="col-12 col-sm-6 col-md-12 pt-5 pt-sm-0 pt-md-5">
-                        <div class="mb-4 app-sidebar-newsletter-box">
+                    <!-- newsletter and search -->
+                    <div
+                        class="col-12 col-sm-6 col-lg-12 pt-5 pt-sm-0 pt-lg-5 pr-0 pr-sm-5 pr-lg-0 order-2 order-sm-1 order-lg-2">
+                        <!-- newsletter -->
+                        <div class="mb-5 app-sidebar-newsletter-box">
                             <div class="app-font-27 title">Join our newsletter</div>
-                            <div>Get latest updates and useful info.</div>
+                            <div class="mb-3">Get latest updates and useful info.</div>
+                            <form class="form-inline app-newsletter-sidebar-form mb-3">
+                                <div class="form-group w-75">
+                                    <input type="email" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-sm btn-warning w-25">
+                                    <i class="far fa-envelope"></i>
+                                </button>
+                            </form>
+
+                            <!-- newsletter register response -->
+                            <div class="text-secondary">
+                                Thanks for subscribing.
+                            </div>
                         </div>
-                        <div>cuadro de busqueda</div>
+
+                        <!-- search box -->
+                        <div>
+                            <form action="">
+                                <div class="form-inline app-sidebar-search mb-3">
+                                    <div class="form-group w-75">
+                                        <input type="email" class="form-control" placeholder="Search">
+                                    </div>
+                                    <button type="submit" class="btn btn-sm btn-light w-25">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
 
