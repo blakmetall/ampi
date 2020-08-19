@@ -320,6 +320,10 @@ body {
         padding: 14px 18px 16px 18px;
         background: #69e999;
 
+        &.blue {
+            background: #64edeb;
+        }
+
         .icon-triangle {
             width: 21px;
             position: absolute;
@@ -488,7 +492,29 @@ body {
 }
 
 .blog {
-    .blog-item {}
+    .blog-item {
+        .blog-link {
+            text-decoration: none;
+        }
+
+        margin-bottom: 3rem;
+        padding-bottom: 3.3rem;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.sidebar-blog-carousel {
+    .carousel-item {
+        .read-more {
+            z-index: 10;
+        }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        padding-top: 65px;
+        align-items: flex-start;
+    }
 }
 
 @include media-breakpoint-up(sm) {}
@@ -581,6 +607,14 @@ body {
     .app-trainings-single {
         .training-img-wrapper {
             max-width: 100%;
+        }
+    }
+
+    .sidebar-blog-carousel {
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            padding-top: 30%;
         }
     }
 }
