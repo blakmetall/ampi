@@ -286,12 +286,6 @@ body {
     }
 
     .app-page-container-inner {
-        .app-title-wrapper {
-            .app-line {
-                width: 40px !important;
-            }
-        }
-
         .app-page-content-container {
             width: 100%;
             padding-right: 30px;
@@ -399,6 +393,12 @@ body {
     }
 }
 
+.app-title-wrapper {
+    .app-line {
+        width: 40px !important;
+    }
+}
+
 .app-trainings-single {
     .training-img-wrapper {
         width: 100%;
@@ -410,6 +410,18 @@ body {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.app-list {
+    .app-list-item {
+        width: 50%;
+        margin-bottom: 4rem;
+
+        .list-img {
+            width: 100%;
+            max-width: 130px;
+        }
+    }
 }
 
 @include media-breakpoint-up(sm) {}
@@ -532,6 +544,12 @@ body {
             font-size: 40px;
         }
     }
+
+    .app-list {
+        .app-list-item {
+            width: 100%;
+        }
+    }
 }
 
 @include media-breakpoint-down(xs) {
@@ -541,6 +559,14 @@ body {
 
             img {
                 width: 120px;
+            }
+        }
+    }
+
+    .app-list {
+        .app-list-item {
+            .list-img {
+                max-width: 80px;
             }
         }
     }
