@@ -14,13 +14,16 @@ $appMidBrown: #e1e0e0;
 
 $appTextContent: #1c1c1c;
 
+$appGray: #949494;
+$appGray2: #ccc;
 $appGreen: #69e999;
 $appBlue: #64edeb;
 
 $grid-gutter-width: 40px !default;
 
 // bootstrap theming: new color scheme
-$theme-colors: ("app-gray": #949494,
+$theme-colors: ("app-gray": $appGray,
+    "app-gray-2": $appGray2,
     "app-black": $appBlack,
     "app-green": $appGreen,
     "app-blue": $appBlue,

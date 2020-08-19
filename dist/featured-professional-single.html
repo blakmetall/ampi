@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Featured Professional Single</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+
+    <!-- animate css librart -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <!-- material design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- app -->
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+
+    <!-- top menu -->
+    <nav class="navbar navbar-expand navbar-light bg-white pt-lg-4 pb-1 app-navbar-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse text-uppercase font-weight-light app-font-12">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="#">English</a>
+                    </li>
+                    <li class="nav-item pl-1 pl-md-3">
+                        <a class="nav-link text-primary" href="/members.html">Members login</a>
+                    </li>
+                    <li class="nav-item pt-2 pl-2 pl-md-5 pr-2">
+                        <div class="align-items-center app-font-14 app-top-socials">
+                            <a href="https://facebook.com" target="_blank" class="text-primary">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="text-primary px-2">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="text-primary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main menu -->
+    <nav class="navbar navbar-expand-xl navbar-light border-bottom app-navbar">
+        <div class="container-fluid position-relative pb-2 pb-xl-0 px-0 pr-2 pr-xl-0">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#appMainNavbar"
+                aria-controls="appMainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="img/logo-ampi-puerto-vallarta.jpg" alt="" loading="lazy">
+            </a>
+            <div class="collapse navbar-collapse text-uppercase font-weight-light app-font-12" id="appMainNavbar">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pb-2 font-weight-normal">
+                    <li class="nav-item active">
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu1"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Real Estate in the Bay</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="#">Buying a second home</a>
+                            <a class="dropdown-item" href="#">Retiring to the Bay</a>
+                            <a class="dropdown-item" href="#">Buying pre-construction</a>
+                            <a class="dropdown-item" href="#">Buying rental property</a>
+                            <a class="dropdown-item" href="#">Selling your property</a>
+                            <a class="dropdown-item" href="#">Why use an AMPI realtor</a>
+                            <a class="dropdown-item" href="#">Real Estate FAQs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Living in the Bay</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="dropdown-item" href="#">Activities in the Bay</a>
+                            <a class="dropdown-item" href="#">Restaurant Guide</a>
+                            <a class="dropdown-item" href="#">Medical Services</a>
+                            <a class="dropdown-item" href="#">LGBT Lifestyle</a>
+                            <a class="dropdown-item" href="#">Local News</a>
+                            <a class="dropdown-item" href="#">Organizations to join</a>
+                        </div>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu3"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>About AMPI</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                            <a class="dropdown-item" href="#">What is AMPI</a>
+                            <a class="dropdown-item" href="#">Code of ethics</a>
+                            <a class="dropdown-item" href="#">Benefits of being a member</a>
+                            <a class="dropdown-item" href="#">Membership Requirements</a>
+                            <a class="dropdown-item" href="#">Forms</a>
+                        </div>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu4"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>AMPI Professionals</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                            <a class="dropdown-item" href="#">Agencies</a>
+                            <a class="dropdown-item" href="#">Agents</a>
+                            <a class="dropdown-item" href="#">Featured Propfessionals</a>
+                            <a class="dropdown-item" href="#">Search by Name</a>
+                        </div>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link text-gray-700 dropdown-toggle" href="#" id="dropdownMenu5"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Search for Properties</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu5">
+                            <a class="dropdown-item" href="#">By map</a>
+                            <a class="dropdown-item" href="#">By area</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Blog / News</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-gray-700" href="#">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top banner -->
+    <div class="app-top-banner">
+        <div class="overlay d-flex align-items-center justify-content-center">
+            <div class="text-white app-font-21 px-4">Lorem ipsum dolor sit amet insectetur.</div>
+        </div>
+    </div>
+
+    <div class="container app-page-container with-padding">
+
+        <!-- breadcrumbs -->
+        <div class="d-flex app-breadcrumbs mb-4">
+            <a href="/" class="app-breadcrumb d-inline-block text-app-gray">Home</a>
+            <div class="app-breadcrumb-separator mx-2 text-app-gray app-font-12">&gt;</div>
+            <a href="/featured-professionals.html" class="app-breadcrumb text-app-gray d-inline-block">
+                Featured Professionals
+            </a>
+            <div class="app-breadcrumb-separator mx-2 text-app-gray app-font-12">&gt;</div>
+            <a href="/featured-professionals.html" class="app-breadcrumb text-app-gray d-inline-block">
+                John Doe
+            </a>
+        </div>
+
+        <div class="featured-professional-single">
+            <!-- title -->
+            <div class="app-title-wrapper mb-5">
+                <h1 class="app-font-36 mb-3">John Doe</h1>
+                <div class="app-line sm warning"></div>
+            </div>
+
+            <!-- professional info -->
+            <div class="details d-flex flex-column flex-md-row align-items-start align-items-md-center mb-5">
+                <!-- detail photo -->
+                <div class="training-img-wrapper">
+                    <img src="https://via.placeholder.com/200x200" alt="" class="img-fluid w-100">
+                </div>
+
+                <!-- detail info -->
+                <div class="pt-4 pt-md-0">
+                    <div class="app-wp-dinamic-content">
+                        <p class="mb-0">
+                            <div class="detail-item">
+                                <b>Years of experience</b> <br>
+                                <span class="text-app-gray">4</span>
+                            </div>
+                            <div class="detail-item">
+                                <b>Company</b> <br>
+                                <span class="text-app-gray">Conchran Real Estate</span>
+                            </div>
+                            <div class="detail-item">
+                                <b>Company address</b> <br>
+                                <span class="text-app-gray">Leona Vicario #230, Centro, Puerto Vallarta</span>
+                            </div>
+                            <div class="detail-item">
+                                <b>Email</b> <br>
+                                <a href="mailto:demo@demo.com" class="text-app-gray">demo@demo.com</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- detail contact -->
+                <div class="pt-4 pt-md-0">
+                    <div class="app-wp-dinamic-content">
+                        <p class="mb-0">
+                            <div class="detail-item">
+                                <b>Mobile</b> <br>
+                                <a href="tel:3220000000" class="text-app-gray">322 000 0000</a>
+                            </div>
+                            <div class="detail-item">
+                                <b>Office</b> <br>
+                                <a href="tel:3220000000" class="text-app-gray">322 000 0000</a>
+                            </div>
+                            <div class="detail-item">
+                                <b>Website</b> <br>
+                                <a href="http://example.org" class="text-app-gray">http://example.org</a>
+                            </div>
+                            <div class="detail-item">
+                                <b>Social Media</b> <br>
+                                <div class="app-professional-socials align-items-center app-font-14">
+                                    <a href="https://facebook.com" target="_blank" class="text-primary">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank" class="text-primary px-2">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://instagram.com" target="_blank" class="text-primary">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- professional description -->
+            <div class="description mb-5">
+                <div class="app-wp-dinamic-content mb-4-3">
+                    <h3>About John Doe</h3>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aut architecto vel nisi
+                        repellat
+                        porro veniam laboriosam illo totam rerum doloribus quia molestias inventore, dolore dolores
+                        earum ab
+                        incidunt consequuntur.
+                    </p>
+
+                    <p>
+                        Nisi minus incidunt provident
+                        mollitia ullam deserunt consectetur, rem voluptatem perspiciatis consequatur, qui ab porro culpa
+                        quo
+                        odio obcaecati. Non, deleniti.
+                    </p>
+
+                    <p>
+                        Totam rerum doloribus quia molestias inventore, dolore dolores earum ab
+                        incidunt consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero aut
+                        architecto vel nisi repellat
+                        porro veniam laboriosam illo.
+                    </p>
+                </div>
+
+                <!-- specializations -->
+                <div class="app-line xxs w-25 gray-2 mb-4-3"></div>
+                <div class="specializations app-wp-dinamic-content mb-4-3">
+                    <h3 class="mb-3">Specializations</h3>
+
+                    <ul>
+                        <li>Buyer</li>
+                        <li>Seller</li>
+                        <li>Rentals</li>
+                        <li>Condos</li>
+                        <li>Houses</li>
+                        <li>Land</li>
+                        <li>Property Management</li>
+                        <li>Pre-construction</li>
+                    </ul>
+                </div>
+
+                <!-- listings -->
+                <div class="app-line xxs w-25 gray-2 mb-4-3"></div>
+                <div class="app-wp-dinamic-content">
+                    <h3 class="mb-3">Listings</h3>
+                    <a href="#" class="text-app-black">
+                        <u>Click here to see this agent property listings.</u>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pt-4"></div>
+            <div class="app-line xxs gray-2 mb-4-3"></div>
+            <div class="pt-4"></div>
+
+            <!-- more featured professionals -->
+            <div class="featured-professionals">
+                <div class="d-flex align-items-center justify-content-between mb-5">
+                    <div>
+                        <div class="app-title-wrapper">
+                            <h1 class="app-font-36 font-weight-500 mb-0">More Featured Professionals</h1>
+                            <div class="app-line sm warning"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="d-flex align-items-center ml-3 text-decoration-none">
+                            <div class="pr-2">See All Affiliates</div>
+                            <i class="fas fa-arrow-right text-warning"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- separator -->
+                <div class="pb-2"></div>
+
+                <!-- featured professionals -->
+                <div>
+                    <!-- list -->
+                    <div class="d-flex flex-nowrap flex-column flex-md-row flex-md-wrap app-list">
+                        <!-- item left -->
+                        <div class="app-list-item pr-0 pr-md-1">
+                            <div class="d-flex align-items-start">
+                                <div class="list-img mr-3 mr-sm-4">
+                                    <img src="https://via.placeholder.com/150" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-app-black">
+                                    <h3 class="app-font-24">Agency Name</h3>
+                                    <div class="text-secondary font-weight-500 mb-1">Brokers Name</div>
+                                    <div>
+                                        <b>Office:</b> <a href="tel:00000000" class="text-app-black">322 103 44 65</a>
+                                    </div>
+                                    <div>
+                                        <b>Mobile:</b> <a href="tel:00000000" class="text-app-black">322 103 44 65</a>
+                                    </div>
+                                    <div>
+                                        <b>Email:</b>
+                                        <a href="mailto:demo@demo.com" class="text-app-black">demo@demo.com</a>
+                                    </div>
+                                    <div class="pt-2">
+                                        <a href="#"
+                                            class="d-flex align-items-center text-decoration-none position-relative">
+                                            <div class="pr-2">Read More</div>
+                                            <i class="fas fa-arrow-right text-warning"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- item right -->
+                        <div class="app-list-item pl-0 pl-md-1">
+                            <div class="d-flex align-items-start">
+                                <div class="list-img mr-3 mr-sm-4">
+                                    <img src="https://via.placeholder.com/150" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-app-black">
+                                    <h3 class="app-font-24">Agency Name</h3>
+                                    <div class="text-secondary font-weight-500 mb-1">Brokers Name</div>
+                                    <div>
+                                        <b>Office:</b> <a href="tel:00000000" class="text-app-black">322 103 44 65</a>
+                                    </div>
+                                    <div>
+                                        <b>Mobile:</b> <a href="tel:00000000" class="text-app-black">322 103 44 65</a>
+                                    </div>
+                                    <div>
+                                        <b>Email:</b>
+                                        <a href="mailto:demo@demo.com" class="text-app-black">demo@demo.com</a>
+                                    </div>
+                                    <div class="pt-2">
+                                        <a href="#"
+                                            class="d-flex align-items-center text-decoration-none position-relative">
+                                            <div class="pr-2">Read More</div>
+                                            <i class="fas fa-arrow-right text-warning"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="app-footer pt-5">
+        <div class="container">
+            <div class="row app-footer-row">
+                <!-- column 1 -->
+                <div class="col-sm-6 col-lg-3 mb-4">
+                    <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
+                        Latest Tweets
+                    </h4>
+
+                    <ul class="list-unstyled font-weight-light">
+                        <li class="mb-2">
+                            <a href="#" class="d-flex text-decoration-none">
+                                <div class="fab fa-twitter text-warning pt-2"></div>
+                                <div class="pl-3">
+                                    <p class="mb-2 text-white">
+                                        Lorem ipsum dolor sit amet, consectetur adpipiscing elit.
+                                    </p>
+                                    <span class="text-success">2 days ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex text-decoration-none">
+                                <div class="fab fa-twitter text-warning pt-2"></div>
+                                <div class="pl-3">
+                                    <p class="mb-2 text-white">
+                                        Lorem ipsum dolor sit amet, consectetur adpipiscing elit.
+                                    </p>
+                                    <span class="text-success">5 days ago</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- column 2 -->
+                <div class="col-sm-6 col-lg-3 mb-4">
+                    <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
+                        On the Blog
+                    </h4>
+
+                    <ul class="list-unstyled font-weight-light">
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none">
+                                <p class="mb-2 text-white">
+                                    Lorem ipsum dolor sit amet, consectetur adpipiscing elit.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="fas fa-clock text-warning mr-2 app-font-13"></div>
+                                    <span class="text-success">Agosto, 2020</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none">
+                                <p class="mb-2 text-white">
+                                    Lorem ipsum dolor sit amet, consectetur adpipiscing elit.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="fas fa-clock text-warning mr-2 app-font-13"></div>
+                                    <span class="text-success">Diciembre, 2020</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- column 3 -->
+                <div class="col-sm-6 col-lg-3 mb-4">
+                    <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
+                        Get in touch
+                    </h4>
+
+                    <ul class="list-unstyled font-weight-light">
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none">
+                                <p class="mb-1 text-white">
+                                    AMPI Puerto Vallarta
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="fas fa-phone text-success ml-1 mr-2 app-font-12"></div>
+                                    <span class="text-white">322 123 4567</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none">
+                                <p class="mb-1 text-white">
+                                    AMPI Nayarit
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="fas fa-phone text-success ml-1 mr-2 app-font-12"></div>
+                                    <span class="text-white">322 123 4567</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none">
+                                <p class="mb-1 text-white">
+                                    AMPI Compostela
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="fas fa-phone text-success ml-1 mr-2 app-font-12"></div>
+                                    <span class="text-white">322 123 4567</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- column 4 -->
+                <div class="col-sm-6 col-lg-3 mb-4">
+                    <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
+                        Social Network
+                    </h4>
+
+                    <ul class="list-unstyled font-weight-light">
+                        <li class="mb-4 d-flex">
+                            <div class="app-footer-social facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="app-footer-social twitter">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="app-footer-social linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <!-- newsletter -->
+                            <div class="text-uppercase font-weight-light mb-3">
+                                Sign up for email alerts
+                            </div>
+
+                            <form class="form-inline app-footer-form mb-3">
+                                <div class="form-group w-75">
+                                    <input type="email" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-sm btn-warning w-25">
+                                    <i class="far fa-envelope"></i>
+                                </button>
+                            </form>
+
+                            <div class="font-weight-light">
+                                Get latest updates and useful info.
+                            </div>
+
+                            <!-- newsletter register response -->
+                            <div class="text-warning">
+                                Thanks for subscribing.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-footer-line"></div>
+
+        <!-- rights -->
+        <div class="container">
+            <p class="mb-0 text-center py-4">
+                AMPI MLS Vallarta-Nayarit-Compostela All rights reserved.
+            </p>
+        </div>
+    </div>
+
+    <!-- external scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <!-- bootstrap scripts -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- app -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -315,6 +315,14 @@
     &.brown {
         background: darken($appMidBrown, 20%);
     }
+
+    &.gray {
+        background: darken($appGray, 20%);
+    }
+
+    &.gray-2 {
+        background: $appGray2;
+    }
 }
 
 .container {
