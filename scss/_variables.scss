@@ -18,3 +18,8 @@ $grid-gutter-width: 40px !default;
 
 // bootstrap theming: new color scheme
 $theme-colors: ("app-gray-1": #949494, "app-black": $appBlack, "app-text-content": $appTextContent);
+
+// bootstrap overrides
+$pagination-color: $appBlack;
+$pagination-active-color: #fff;
+$pagination-active-bg: $appBlack;

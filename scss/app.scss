@@ -424,6 +424,56 @@ body {
     }
 }
 
+.app-pagination {
+    .pagination {
+        flex-wrap: wrap;
+
+        .page-item {
+            margin-bottom: 0.5rem;
+
+            .page-item-inner {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid $appBlack;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 3px;
+
+                .page-link {
+                    display: inline-block !important;
+                    text-align: center;
+                    font-size: 12px;
+                    border: 0;
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    background: $appBlack;
+
+                    .page-link {
+                        background: transparent;
+                        color: white;
+                    }
+                }
+            }
+
+            &.active {
+                .page-item-inner {
+                    background: $appBlack;
+
+                    .page-link {
+                        background: transparent;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
