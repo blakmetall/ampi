@@ -310,6 +310,11 @@ body {
     p {
         margin-bottom: 1rem;
     }
+
+    ul,
+    ol {
+        padding-left: 18px;
+    }
 }
 
 .app-sidebar-menu {
@@ -394,6 +399,19 @@ body {
     }
 }
 
+.app-trainings-single {
+    .training-img-wrapper {
+        width: 100%;
+        max-width: 405px;
+    }
+}
+
+.app-circled-number {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
@@ -473,6 +491,17 @@ body {
             .app-page-sidebar-container {
                 max-width: 100%;
             }
+        }
+    }
+
+    .app-circled-number {
+        width: 80px;
+        height: 80px;
+    }
+
+    .app-trainings-single {
+        .training-img-wrapper {
+            max-width: 100%;
         }
     }
 }

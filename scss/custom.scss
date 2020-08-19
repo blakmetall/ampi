@@ -187,6 +187,18 @@
     font-size: 36px;
 }
 
+.app-font-39 {
+    font-size: 39px;
+}
+
+.app-font-42 {
+    font-size: 42px;
+}
+
+.app-font-45 {
+    font-size: 45px;
+}
+
 .text-gray-100 {
     color: $gray-100 !important;
 }
@@ -370,6 +382,18 @@
     .app-font-36 {
         font-size: 30px;
     }
+
+    .app-font-39 {
+        font-size: 36px;
+    }
+
+    .app-font-42 {
+        font-size: 39px;
+    }
+
+    .app-font-45 {
+        font-size: 42px;
+    }
 }
 
 @include media-breakpoint-down(sm) {
@@ -391,5 +415,31 @@
 
     .app-font-36 {
         font-size: 28px;
+    }
+
+    .app-font-39 {
+        font-size: 35px;
+    }
+
+    .app-font-42 {
+        font-size: 38px;
+    }
+
+    .app-font-45 {
+        font-size: 41px;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .app-font-39 {
+        font-size: 32px;
+    }
+
+    .app-font-42 {
+        font-size: 35px;
+    }
+
+    .app-font-45 {
+        font-size: 38px;
     }
 }
