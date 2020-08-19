@@ -487,6 +487,10 @@ body {
     }
 }
 
+.blog {
+    .blog-item {}
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
