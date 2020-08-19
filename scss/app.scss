@@ -474,6 +474,19 @@ body {
     }
 }
 
+.app-back-link {
+    img {
+        width: 15px;
+    }
+}
+
+.app-remove-outline {
+    &:focus {
+        box-shadow: none;
+        border-color: auto;
+    }
+}
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {
