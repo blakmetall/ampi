@@ -14,10 +14,17 @@ $appMidBrown: #e1e0e0;
 
 $appTextContent: #1c1c1c;
 
+$appGreen: #69e999;
+$appBlue: #64edeb;
+
 $grid-gutter-width: 40px !default;
 
 // bootstrap theming: new color scheme
-$theme-colors: ("app-gray": #949494, "app-black": $appBlack, "app-text-content": $appTextContent);
+$theme-colors: ("app-gray": #949494,
+    "app-black": $appBlack,
+    "app-green": $appGreen,
+    "app-blue": $appBlue,
+    "app-text-content": $appTextContent);
 
 // bootstrap overrides 
 $pagination-color: $appBlack;

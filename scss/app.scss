@@ -301,13 +301,96 @@ body {
 .app-wp-dinamic-content {
     color: $appTextContent;
 
+    .link,
+    a {
+        color: $appBlack;
+        text-decoration: underline;
+
+        &:hover {
+            color: $primary;
+        }
+
+        &:visited {
+            color: $appBlack;
+        }
+    }
+
+    .h2,
+    h2 {
+        color: $primary;
+        font-weight: 300;
+        font-size: 27px;
+        margin-bottom: 1.8rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 18px;
+        margin-bottom: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .h4,
+    .h5,
+    .h6,
+    h4,
+    h5,
+    h6 {
+        font-size: 16px;
+        margin-bottom: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .p,
     p {
         margin-bottom: 1rem;
     }
 
+    .featured {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .ul,
+    .ol,
     ul,
     ol {
         padding-left: 18px;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .ul,
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            &::before {
+                content: '';
+                display: inline-block;
+                height: 12px;
+                width: 12px;
+                background-image: url('../img/icons/arrow-right-green.svg');
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .blockquote,
+    blockquote {
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 300;
+        padding-bottom: 15px;
+        border-bottom: 3px solid $appBlue;
+        width: 100%;
+        margin: 2rem 0 2.5rem 0;
     }
 }
 
@@ -318,10 +401,10 @@ body {
         font-size: 20px;
         font-weight: 600;
         padding: 14px 18px 16px 18px;
-        background: #69e999;
+        background: $appGreen;
 
         &.blue {
-            background: #64edeb;
+            background: $appBlue;
         }
 
         .icon-triangle {
