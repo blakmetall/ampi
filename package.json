@@ -4,7 +4,7 @@
     "description": "ampi html templates",
     "main": "index.js",
     "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
+        "sass": "node-sass -w scss/ -o wordpress/wp-content/themes/ampi/css/ --recursive --output-style compressed",
         "deploy": "gh-pages -d dist",
         "serve": "serve dist --listen 3000"
     },
