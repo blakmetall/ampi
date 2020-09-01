@@ -2,12 +2,12 @@
 
 date_default_timezone_set('America/Mexico_City');
 define('THEME_PATH', get_template_directory_uri());
-define('LIVE_SITE', ($_SERVER['HTTP_HOST']=='sibillafilm.com') ? false : false );
-define('SITE_DOMAIN', (LIVE_SITE) ? 'http://sibillafilm.com' : 'http://sibillafilm.com');
+define('LIVE_SITE', ($_SERVER['HTTP_HOST']=='ampi.clicbrands.com') ? false : false );
+define('SITE_DOMAIN', (LIVE_SITE) ? 'https://www.vallartanayaritmls.com' : 'http://ampi.clicbrands.com');
 define('THEME_VERSION', (LIVE_SITE) ? 1 : strtotime('now'));
 define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'] . '/');
-define('THEME_ROOT', SITE_ROOT . 'wp-content/themes/sibilla/');
-define('LANG', (defined('ICL_LANGUAGE_CODE')) ? ICL_LANGUAGE_CODE : 'it' ); // italian
+define('THEME_ROOT', SITE_ROOT . 'wp-content/themes/ampi/');
+define('LANG', (defined('ICL_LANGUAGE_CODE')) ? ICL_LANGUAGE_CODE : 'en' );
 define('CAPTCHA', 'tT2AE~@MjDK}c2e=');
 
 /** APPEND GET PARAMETERS */
@@ -118,6 +118,6 @@ add_action('upload_mimes', function($file_types){
 /** ALLOW SVG UPLOADS **/
 
 if(!is_admin()){
-    show_admin_bar(false);
+    show_admin_bar(true);
     require_once 'includes/app.php';
 }
