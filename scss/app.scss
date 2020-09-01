@@ -301,6 +301,7 @@ body {
 
 .app-wp-dinamic-content {
     color: $appTextContent;
+    font-size: 16px;
 
     .link,
     a {
@@ -320,13 +321,14 @@ body {
     h2 {
         color: $primary;
         font-weight: 300;
-        font-size: 27px;
+        font-size: 30px;
         margin-bottom: 1.8rem;
     }
 
     .h3,
     h3 {
-        font-size: 18px;
+        font-size: 19px;
+        font-weight: 500;
         margin-bottom: 1.3rem;
         margin-top: 1.5rem;
     }
@@ -357,6 +359,7 @@ body {
     .ol,
     ul,
     ol {
+        font-size: 16px;
         padding-left: 18px;
         margin-bottom: 1rem;
         margin-top: 1.5rem;
@@ -385,8 +388,9 @@ body {
 
     .blockquote,
     blockquote {
+        line-height: 1.4em;
         font-style: italic;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 300;
         padding-bottom: 15px;
         border-bottom: 3px solid $appBlue;
@@ -648,7 +652,7 @@ body {
 @include media-breakpoint-up(md) {
     .app-home-counter {
         h2 {
-            max-width: 400px;
+            max-width: 500px;
         }
     }
 }
