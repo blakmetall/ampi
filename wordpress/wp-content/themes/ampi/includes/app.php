@@ -8,6 +8,8 @@ class WpApp {
         $this->language = LANG;
 
         $this->cms['home'] = $this->get_translated_id(138, 'page');
+
+        $this->cms['members-login'] = $this->get_translated_id(1337, 'page');
     }
 
     public function home_url(){
@@ -48,6 +50,25 @@ class WpApp {
             }
         }
         return $menu;
+    }
+
+    public function get_main_menu() {
+        $menu = LANG === 'en' ? 'main-menu' : 'main-menu-es';
+
+        return $this->prepare_menu(wp_get_nav_menu_items($menu));
+    }
+
+    public function get_members_menu() {
+        $menu = LANG === 'en' ? 'members-menu' : 'members-menu-es';
+        return $this->prepare_menu(wp_get_nav_menu_items($menu));
+    }
+
+    public function get_cms_permalink($page_slug) {
+        if(isset($this->cms[$page_slug])) {
+            return get_permalink($this->cms[$page_slug]);
+        }
+
+        return '#';
     }
 
     public function get_lang_menu($skip_current_lang = false){
