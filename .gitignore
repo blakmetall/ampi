@@ -35,3 +35,4 @@ junit-results
 *.css.map
 .editorconfig
 .vscode
+node_modules
