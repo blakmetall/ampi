@@ -9,7 +9,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5em;
-}
+} 
 
 .form-control {
     border-radius: 0;
@@ -19,13 +19,6 @@ body {
     &:focus {
         box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .175) !important;
         border-color: #000;
-    }
-}
-
-.app-navbar-top,
-.app-navbar {
-    >.container-fluid {
-        max-width: 1200px;
     }
 }
 
@@ -662,7 +655,39 @@ body {
 
 @include media-breakpoint-up(lg) {}
 
-@include media-breakpoint-up(xl) {}
+@include media-breakpoint-up(xl) {
+    .app-navbar-top,
+    .app-navbar {
+        .nav-item{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 1300px) {
+    .app-navbar-top, 
+    .app-navbar {
+        .nav-item{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .app-navbar-top, 
+    .app-navbar {
+        .nav-item{
+            font-size: 14px;
+        }
+    }
+
+    .app-navbar {
+        .nav-item{
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+    }
+}
 
 @include media-breakpoint-down(xl) {}
 
