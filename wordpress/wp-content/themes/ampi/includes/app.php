@@ -2,7 +2,7 @@
 
 class WpApp {
     public $cms = [];
-    public $language = 'it';
+    public $language = 'en';
 
     function __construct(){
         $this->language = LANG;
