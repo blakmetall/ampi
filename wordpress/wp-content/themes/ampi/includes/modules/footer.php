@@ -5,7 +5,7 @@
             <!-- column 1 -->
             <div class="col-sm-6 col-lg-3 mb-4">
                 <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
-                    Latest Tweets
+                    <?=__('Latest Tweets')?>
                 </h4>
 
                 <ul class="list-unstyled font-weight-light">
@@ -37,7 +37,7 @@
             <!-- column 2 -->
             <div class="col-sm-6 col-lg-3 mb-4">
                 <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
-                    On the Blog
+                    <?=__('On the Blog')?>
                 </h4>
 
                 <ul class="list-unstyled font-weight-light">
@@ -69,12 +69,12 @@
             <!-- column 3 -->
             <div class="col-sm-6 col-lg-3 mb-4">
                 <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
-                    Get in touch
+                    <?=__('Get in touch')?>
                 </h4>
 
                 <ul class="list-unstyled font-weight-light">
                     <li class="mb-2">
-                        <a href="#" class="text-decoration-none">
+                        <a href="tel:3221234567" class="text-decoration-none">
                             <p class="mb-1 text-white">
                                 AMPI Puerto Vallarta
                             </p>
@@ -85,7 +85,7 @@
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-decoration-none">
+                        <a href="tel:3221234567" class="text-decoration-none">
                             <p class="mb-1 text-white">
                                 AMPI Nayarit
                             </p>
@@ -96,7 +96,7 @@
                         </a>
                     </li>
                     <li class="mb-2">
-                        <a href="#" class="text-decoration-none">
+                        <a href="tel:3221234567" class="text-decoration-none">
                             <p class="mb-1 text-white">
                                 AMPI Compostela
                             </p>
@@ -112,7 +112,7 @@
             <!-- column 4 -->
             <div class="col-sm-6 col-lg-3 mb-4">
                 <h4 class="pb-2 mb-5 border-bottom border-primary font-weight-normal">
-                    Social Network
+                    <?=__('Social Networks')?>
                 </h4>
 
                 <ul class="list-unstyled font-weight-light">
@@ -130,7 +130,7 @@
                     <li class="mb-2">
                         <!-- newsletter -->
                         <div class="text-uppercase font-weight-light mb-3">
-                            Sign up for email alerts
+                            <?=__('Sign up for email alerts')?>
                         </div>
 
                         <form class="form-inline app-footer-form mb-3">
@@ -143,12 +143,12 @@
                         </form>
 
                         <div class="font-weight-light">
-                            Get latest updates and useful info.
+                            <?=__('Get latest updates and useful info.')?>
                         </div>
 
                         <!-- newsletter register response -->
                         <div class="text-warning">
-                            Thanks for subscribing.
+                            <?=__('Thanks for subscribing.')?>
                         </div>
                     </li>
                 </ul>
@@ -161,7 +161,7 @@
     <!-- rights -->
     <div class="container">
         <p class="mb-0 text-center py-4">
-            AMPI MLS Vallarta-Nayarit-Compostela All rights reserved.
+            AMPI MLS Vallarta-Nayarit-Compostela <?=__('All rights reserved.')?>
         </p>
     </div>
 </div>
