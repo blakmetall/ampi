@@ -167,6 +167,10 @@
     font-size: 21px;
 }
 
+.app-font-22 {
+    font-size: 22px;
+}
+
 .app-font-24 {
     font-size: 24px;
 }
@@ -387,6 +391,10 @@
 @include media-breakpoint-down(lg) {}
 
 @include media-breakpoint-down(md) {
+    .app-font-22 {
+        font-size: 20px;
+    }
+
     .app-font-24 {
         font-size: 21px;
     }
