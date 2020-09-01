@@ -10,6 +10,9 @@ if(!class_exists('WpApp')) {
     
             $this->cms['home'] = $this->get_translated_id(138, 'page');
     
+            $this->cms['buying-a-second-home'] = $this->get_translated_id(953, 'page');
+            $this->cms['selling-your-property'] = $this->get_translated_id(961, 'page');
+            $this->cms['why-use-an-ampi-realtor'] = $this->get_translated_id(963, 'page');
             $this->cms['members-login'] = $this->get_translated_id(1337, 'page');
         }
     

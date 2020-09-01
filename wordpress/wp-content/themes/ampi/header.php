@@ -22,6 +22,7 @@
 
     <!-- app -->
     <link rel="stylesheet" href="<?=THEME_PATH?>/css/app.css?v=<?=THEME_VERSION?>" />
+    <link rel="stylesheet" href="<?=THEME_PATH?>/css/styles.css?v=<?=THEME_VERSION?>" />
 
     <!-- favicon -->
     <?php include "includes/partials/favicon.php"; ?>

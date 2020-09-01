@@ -1,0 +1,7 @@
+.home-card {
+    color: #212529;
+}
+.home-card:hover {
+    color: #212529;
+    text-decoration: none;
+}
